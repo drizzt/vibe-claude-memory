@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Timothy Redaelli
+#
+# SPDX-License-Identifier: MIT
+
+version = 1
+
+[[annotations]]
+path = ["mcp.json", "plugin.json"]
+SPDX-FileCopyrightText = "2026 Timothy Redaelli"
+SPDX-License-Identifier = "MIT"

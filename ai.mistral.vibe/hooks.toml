@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Timothy Redaelli
+#
+# SPDX-License-Identifier: MIT
+
+[[hooks]]
+name = "load"
+type = "session_start"
+description = "Inject Claude global instructions and project memory"
+command = 'python3 -I "$PLUGIN_ROOT/claude_memory/hook.py"'
+timeout = 15.0

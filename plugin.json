@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "claude-memory",
+  "version": "1.0.0",
+  "description": "Brings Claude's global instructions and per-project memory into Vibe sessions, with a tool to read, search and optionally save memories.",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "claude",
+    "context"
+  ],
+  "extensions": {
+    "ai.mistral.vibe": {
+      "schemaVersion": 1,
+      "displayName": "Claude memory",
+      "toolNamespace": "claudeMemory",
+      "toolOverrides": {
+        "claude_memory": {
+          "exposure": "direct_and_programmatic"
+        }
+      }
+    }
+  }
+}
